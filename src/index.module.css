@@ -1,0 +1,23 @@
+:global(body) {
+  margin: 0;
+}
+
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.mapWrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+  flex: 0 1;
+  text-align: center;
+}
+
+.map {
+  overflow: scroll;
+}
